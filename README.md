@@ -16,3 +16,7 @@ i2a out2-re* > o2
 ```bash
 ./pop
 ```
+
+
+https://user-images.githubusercontent.com/42153744/122041790-4a879780-ce14-11eb-8fbd-f0c97761fe77.mp4
+
