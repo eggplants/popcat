@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while :;do
+  cat o1
+  sleep 0.1
+  echo -ne '\e[35A'
+  cat o2
+  sleep 0.1
+  echo -ne '\e[35A'
+done
