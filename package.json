@@ -1,0 +1,31 @@
+{
+  "name": "popcat-live",
+  "version": "0.1.0",
+  "description": "popcat party!",
+  "main": "index.js",
+  "scripts": {
+    "start": "FORCE_COLOR=1 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "colors": "1.4.0",
+    "mz": "2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggplants/popcat.git"
+  },
+  "keywords": [
+    "popcat"
+  ],
+  "author": {
+    "name": "eggplants",
+    "email": "w10776e8w@yahoo.co.jp",
+    "url": "https://github.com/eggplants"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eggplants/popcat/issues"
+  },
+  "homepage": "https://github.com/eggplants/popcat#readme"
+}
