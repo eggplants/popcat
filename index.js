@@ -49,13 +49,12 @@ const selectColor = previousColor => {
   return color;
 };
 
-const wait = 200;
-
 const streamer = (stream, opts) => {
   let index = 0;
   let lastColor;
   let frame = null;
   const frames = opts.flip ? flipped : original;
+  const wait   = opts.t < 0 ? 200 : opts.t;
 
   return setInterval(() => {
     // clear the screen
@@ -69,7 +68,8 @@ const streamer = (stream, opts) => {
   }, wait);
 };
 
-const validateQuery = ({ flip }) => ({
+const validateQuery = ({ flip, t }) => ({
+  t: (t ? parseInt(t) || 200 : 200),
   flip: String(flip).toLowerCase() === 'true'
 });
 
@@ -91,6 +91,7 @@ const server = http.createServer((req, res) => {
   const stream = new Readable();
   stream._read = function noop() {};
   stream.pipe(res);
+
   const interval = streamer(stream, validateQuery(url.parse(req.url, true).query));
 
   req.on('close', () => {
