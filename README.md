@@ -13,8 +13,7 @@ curl popcatlive.herokuapp.com
 
 ## Demo
 
-https://user-images.githubusercontent.com/42153744/122168116-d520d300-ceb6-11eb-8cfa-eaae2e3f1d8c.mp4
-
+![heroku](https://github.com/eggplants/popcat/wiki/gif/heroku.gif)
 
 ## Options
 
@@ -28,4 +27,13 @@ https://user-images.githubusercontent.com/42153744/122168116-d520d300-ceb6-11eb-
 curl 'http://popcatlive.herokuapp.com/?flip=true&t=500'
 ```
 
-https://user-images.githubusercontent.com/42153744/122504278-f0b1e800-d034-11eb-8965-310077f346c7.mp4
+![heroku_flipped](https://github.com/eggplants/popcat/wiki/gif/heroku_flipped.gif)
+
+## Command
+
+```bash
+chmod +x src/pop
+./src/pop
+```
+
+![command](https://github.com/eggplants/popcat/wiki/gif/command.gif)
