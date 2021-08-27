@@ -8,6 +8,8 @@
 ## Run
 
 ```bash
+curl -L popcatlive.tk
+# or
 curl popcatlive.herokuapp.com
 ```
 
