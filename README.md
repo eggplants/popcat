@@ -2,6 +2,8 @@
 
 [![Heroku App Status](http://heroku-shields.herokuapp.com/popcatlive)](https://popcatlive.herokuapp.com)
 
+**🖕If the status badge is not shown correctly, please click to wake up hibernated server.**
+
 - [Pop cat](https://knowyourmeme.com/memes/pop-cat) from curl
 - Inspired by <http://parrot.live>
 
