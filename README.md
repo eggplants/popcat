@@ -18,7 +18,7 @@ curl https://popcatlive.tk
     - Interval of frames. Defaults to `1000`(ms).
 
 ```bash
-curl 'http://popcatlive.tk?flip=true&t=500'
+curl 'https://popcatlive.tk?flip=true&t=500'
 ```
 
 ## Demo
