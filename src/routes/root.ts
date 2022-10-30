@@ -6,7 +6,7 @@ import { pop } from '~/libs/pop'
 import { queryParamSchema } from '~/models/queryParam'
 import { exists, isCurl } from '~/utils'
 
-export const indexHandler: RequestHandler = async (req, res) => {
+export const rootHandler: RequestHandler = async (req, res) => {
   const userAgent = req.headers['user-agent']
   if (exists(userAgent) && !isCurl(userAgent)) {
     res.redirect(302, REPO_URL)
