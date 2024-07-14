@@ -6,7 +6,7 @@
 ## Run
 
 ```bash
-curl popcat.egpl.dev
+curl -L popcat.egpl.dev
 ```
 
 ## Options
@@ -18,7 +18,7 @@ curl popcat.egpl.dev
     - Interval of frames. Defaults to `1000`(ms).
 
 ```bash
-curl 'popcat.egpl.dev?flip=true&t=500'
+curl -L 'popcat.egpl.dev?flip=true&t=500'
 ```
 
 ## Demo
